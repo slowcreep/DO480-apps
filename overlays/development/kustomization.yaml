@@ -1,0 +1,8 @@
+kind: Kustomization
+
+bases:
+  - ../../base
+resources:
+- dbclaim.yaml
+- route.yaml
+namePrefix: dev-
